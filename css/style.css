@@ -1,0 +1,39 @@
+.carousel{
+    height: 50vh;
+}
+
+.mainimg{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.item{
+    position: relative;
+    display: none;
+}
+
+.item.active{
+    display: block;
+}
+
+.text{
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.thumbnail{
+    position: relative;
+    height: 100%;
+}
+
+.thumbimg{
+    height: calc(50vh / 5);
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
